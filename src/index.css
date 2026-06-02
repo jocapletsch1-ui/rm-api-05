@@ -4,3 +4,15 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+body{
+  background-image: url(../public/images.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+@media (width <= 1000px){
+  body{
+    background-image: url(../public/rick-and-morty-phone-purple-galaxy-yekigz0jgmmkp4t4.jpg);
+  }
+}
